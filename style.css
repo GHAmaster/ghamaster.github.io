@@ -1,0 +1,45 @@
+body {
+    width: auto;
+    height: 2000px;
+    max-height: 2000px;
+    margin: 0;
+    overflow: hidden;
+}
+
+section {
+    position: static;
+    overflow: hidden;
+}
+
+.button {
+    background-color: #32d186;;
+    border-radius: 4px;
+    transition-duration: 0.1s;
+    text-align: center;
+    user-select: none;
+}
+
+.button:hover {
+    background-color: #8ef0a7;
+}
+
+.button:active {
+    background-color: #32d186;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}
+
+#mass {
+    width: 125%;
+    height: 300%;
+    mask-image: linear-gradient(transparent 20px, black 100px);
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    mask-position: top;
+    background-image: url("images/MASS.png");
+    background-attachment: fixed;
+}
